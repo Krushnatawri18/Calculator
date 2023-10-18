@@ -1,0 +1,42 @@
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.bg-color{
+    background-color: rgb(196, 135, 253);
+}
+
+.items-center{
+    align-items: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.m-w-20{
+    max-width: 20vw;
+}
+
+.color{
+    background-color: rgb(255, 188, 18);
+    color: white;
+}
+
+.color1{
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
+
+.color2{
+    background-color: rgb(133, 133, 133);
+    color: white;
+}
