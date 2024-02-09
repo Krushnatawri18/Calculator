@@ -4,46 +4,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Calculator</title>
+    <title>Simple Calculator</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="utils.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <h1 class="text-center">Welcome to Calculate me !</h1>
-    <div class="container flex flex-col items-center mx-auto m-w-20">
-        <div class="row">
-            <input class="input" type="text" name="text" value="0">0
+    <h2>Simple Calculator</h2>
+    <div class="container">
+        <div class="main">
+            <div class="row1">
+                <input class="input" type="text" name="text" value="0">
+            </div>
         </div>
-        <div class="row">
-            <button class="button color2">C</button>
-            <button class="button color2">%</button>
-            <button class="button color2 #sqroot">&radic;</button>
-            <button class="button color2">&pi;</button>
-        </div>
-        <div class="row">
-            <button class="button color1">7</button>
-            <button class="button color1">8</button>
-            <button class="button color1">9</button>
-            <button class="button color">*</button>
-        </div>
-        <div class="row">
-            <button class="button color1">4</button>
-            <button class="button color1">5</button>
-            <button class="button color1">6</button>
-            <button class="button color">-</button>
-        </div>
-        <div class="row">
-            <button class="button color1">1</button>
-            <button class="button color1">2</button>
-            <button class="button color1">3</button>
-            <button class="button color">+</button>
-        </div>
-         <div class="row">
-            <button class="button color1">0</button>
-            <button class="button color2">.</button>
-            <button class="button color">=</button>
-            <button class="button color">/</button>
+        <div class="main2">
+
+            <div class="row">
+                <button class="button color2 feature">AC</button>
+                <button class="button color2 feature">&radic;</button>
+                <button class="button color2 feature">%</button>
+                <button class="button color4">/</button>
+            </div>
+            <div class="row">
+                <button class="button color1">7</button>
+                <button class="button color1">8</button>
+                <button class="button color1">9</button>
+                <button class="button color4">*</button>
+            </div>
+            <div class="row">
+                <button class="button color1">4</button>
+                <button class="button color1">5</button>
+                <button class="button color1">6</button>
+                <button class="button color4">-</button>
+            </div>
+            <div class="row">
+                <button class="button color1">1</button>
+                <button class="button color1">2</button>
+                <button class="button color1">3</button>
+                <button class="button color4">+</button>
+            </div>
+            <div class="row">
+                <button class="button color1 color3">0</button>
+                <!-- <button class="button color2">.</button> -->
+                <button class="button color1">.</button>
+                <button class="button color4">=</button>
+            </div>
         </div>
     </div>
 
